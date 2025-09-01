@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Painel de Projetos - Instituto Tecnológico Vale. Acesse os relatórios interativos do ITV.">
+    <meta name="keywords" content="ITV, Instituto Tecnológico Vale, relatórios, Power BI, análise de dados">
+    <meta name="author" content="Instituto Tecnológico Vale">
+    
+    <title>Painel de Projetos - Instituto Tecnológico Vale</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- Preload de fontes para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content para acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="assets/logo-itv-official.svg" alt="Logo do Instituto Tecnológico Vale" class="header__logo-img">
+                </div>
+                                    <h2 class="header__subtitle">Painel de Projetos</h2>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main content -->
+    <main id="main-content" class="main" role="main">
+        <div class="container">
+            <!-- Hero section -->
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero__content">
+                    <h2 id="hero-title" class="hero__title">Bem-vindo ao Painel de Projetos</h2>
+                    <p class="hero__description">
+                        Acesse os relatórios interativos do Instituto Tecnológico Vale para análises operacionais e estratégicas.
+                    </p>
+                </div>
+            </section>
+            
+            <!-- Relatórios section -->
+            <section class="dashboards" aria-labelledby="dashboards-title">
+                <h2 id="dashboards-title" class="dashboards__title">Relatórios Disponíveis</h2>
+                <div class="dashboards__grid">
+                    <!-- Genômica da Biodiversidade Brasileira -->
+                    <article class="dashboard-card" role="article">
+                        <div class="dashboard-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor"/>
+                                <path d="M2 17L12 22L22 17" fill="currentColor"/>
+                                <path d="M2 12L12 17L22 12" fill="currentColor"/>
+                                <circle cx="12" cy="7" r="2" fill="currentColor"/>
+                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                                <circle cx="12" cy="17" r="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="dashboard-card__content">
+                            <h3 class="dashboard-card__title">Genômica da Biodiversidade Brasileira (GBB) - ITV e ICMBio</h3>
+                            <p class="dashboard-card__description">
+                                Acesse dados e análises sobre a biodiversidade brasileira através de estudos genômicos.
+                            </p>
+                        </div>
+                        <a href="https://azusdstiapp002-emcsh3cjacauaggm.eastus-01.azurewebsites.net" 
+                           class="dashboard-card__link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Abrir Relatório de Genômica da Biodiversidade Brasileira em nova aba">
+                            Acessar Relatório
+                            <svg class="dashboard-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <!-- Nature Positive -->
+                    <article class="dashboard-card" role="article">
+                        <div class="dashboard-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                                <path d="M19 15L19.5 16.5L21 17L19.5 17.5L19 19L18.5 17.5L17 17L18.5 16.5L19 15Z" fill="currentColor"/>
+                                <path d="M5 15L5.5 16.5L7 17L5.5 17.5L5 19L4.5 17.5L3 17L4.5 16.5L5 15Z" fill="currentColor"/>
+                                <path d="M12 18L12.5 19.5L14 20L12.5 20.5L12 22L11.5 20.5L10 20L11.5 19.5L12 18Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="dashboard-card__content">
+                            <h3 class="dashboard-card__title">Nature Positive - ITV e Hydro</h3>
+                            <p class="dashboard-card__description">
+                                Explore indicadores e métricas relacionadas à sustentabilidade e impacto positivo na natureza.
+                            </p>
+                        </div>
+                        <button class="dashboard-card__link dashboard-card__link--coming-soon" 
+                                disabled
+                                aria-label="Relatório Nature Positive - Em breve">
+                            Em breve
+                        </button>
+                    </article>
+                </div>
+            </section>
+            
+
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p class="footer__copyright">
+                        &copy; 2025 Instituto Tecnológico Vale. Todos os direitos reservados.
+                    </p>
+                    <p class="footer__address">
+                        Belém, Pará - Brasil
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
