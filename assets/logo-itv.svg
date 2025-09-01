@@ -1,0 +1,21 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo circular -->
+  <circle cx="60" cy="60" r="58" fill="#003366" stroke="#004080" stroke-width="4"/>
+  
+  <!-- Letra I estilizada -->
+  <rect x="45" y="25" width="30" height="8" rx="4" fill="#ffffff"/>
+  <rect x="45" y="87" width="30" height="8" rx="4" fill="#ffffff"/>
+  <rect x="52" y="35" width="16" height="50" rx="8" fill="#ffffff"/>
+  
+  <!-- Letra T estilizada -->
+  <rect x="25" y="45" width="70" height="8" rx="4" fill="#ffffff"/>
+  <rect x="52" y="53" width="16" height="50" rx="8" fill="#ffffff"/>
+  
+  <!-- Letra V estilizada -->
+  <path d="M35 53L50 87L65 53L80 87" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Elementos decorativos -->
+  <circle cx="60" cy="60" r="20" fill="none" stroke="#004080" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="60" cy="60" r="12" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+</svg>
+

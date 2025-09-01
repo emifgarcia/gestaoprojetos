@@ -1,0 +1,7 @@
+<!-- Favicon placeholder - será convertido para .ico -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="4" fill="#007e7a"/>
+  <path d="M8 8h16v16H8z" fill="#edb111"/>
+  <text x="16" y="22" text-anchor="middle" fill="#007e7a" font-family="Arial" font-size="14" font-weight="bold">ITV</text>
+</svg>
+
